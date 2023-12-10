@@ -4,3 +4,21 @@
     height: 300px;
     width:auto;
 }
+
+.food-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    text-align: center;
+}
+
+table, tr, th,td{
+    border: 1px solid;
+}
+
+table img{
+    width:150px;
+    height:150px;
+}

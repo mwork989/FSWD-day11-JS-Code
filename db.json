@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "foodDetails":[
+    {
+      "id": 22,
+      "name": "Burger",
+      "description": " Delicious burger with cheese and veggies",
+      "price": 250,
+      "image": "https://wallpaperaccess.com/thumb/715621.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Dosa",
+      "description": "Delicious Dosa with chutney and sambar",
+      "price": 150,
+      "image": "https://wallpaperaccess.com/thumb/6340448.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Pizza",
+      "description": "Classic pizza with your favorite toppings",
+      "price": 300,
+      "image": "https://wallpaperaccess.com/full/3667703.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Donut",
+      "description": "sweet and cholatey donut",
+      "price": 120,
+      "image": "https://wallpaperaccess.com/thumb/1636234.jpg"
+    },
+    {
+      "id": 55,
+      "name": "idli",
+      "description": "savoury rice cake",
+      "price": 50,
+      "image": "https://wallpaperaccess.com/thumb/4883006.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Pani Puri",
+      "description": "Deep-fried breaded sphere with filling",
+      "price": 40,
+      "image": "https://wallpaperaccess.com/full/9450617.jpg"
+    },
+    {
+      "id":77,
+      "name":"ice cream sundae",
+      "description":"chocolate chips vanilla icecream with cherry ",
+      "price":200,
+      "image":"https://wallpaperaccess.com/thumb/564253.jpg"
+    }
+  ],
+  "cart": [
+    [
+      {
+        "id": 1,
+        "name": "Pizza",
+        "price": 300
+      },
+      {
+        "id": 4,
+        "name": "Donut",
+        "price": 120
+      },
+      {
+        "id": 3,
+        "name": "Dosa",
+        "price": 150
+      }
+    ]
+  ]
+}
